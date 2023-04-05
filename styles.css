@@ -1,0 +1,103 @@
+html {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cad2c5;
+    overflow: hidden;
+}
+
+.game {
+    display: flex;
+}
+
+.game > div {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+.game > div > * {
+    flex: 1;
+}
+
+.row {
+    display: flex;
+}
+
+.row button {
+    width: 150px;
+    height: 150px;
+    font-size: 125px;
+    color: #52796f;
+    background: transparent;
+    border : 0px;
+}
+
+.top {
+    height: 150px;
+  
+    border-right: 10px double #84a98c;
+    border-left: 10px double #84a98c;
+}
+
+#middle {
+    border-top: 10px double #84a98c;
+    border-bottom: 10px double #84a98c;
+}
+
+.row {
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    color: #354f52;
+    width: 300px;
+    height: 0;
+    margin: 0;
+    text-overflow: clip;
+    font-size: 20px;
+    text-align: left;
+    transform: translateY(-250px);
+}
+
+p {
+    color: #354f52;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+ol {
+    width: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    width: 100px;
+    margin-top: 10px;
+}
+
+ol button {
+    padding: 5px 20px;
+    color: #354f52;
+    border: 0px;
+    margin-left: 50px;
+    background-color: #84a98c;
+    font-size: 12.5px;
+}
+
+span {
+    color: rgb(255, 0, 0)
+}
